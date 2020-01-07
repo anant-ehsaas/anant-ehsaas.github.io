@@ -28,12 +28,56 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
+          <h2 className="major">Our Vision</h2>
           <p>
-            &lt;Insert description here&gt;
+            Anant-Ehsaas Foundation is a collective of dedicated individuals and
+            organizations who believe in salvation of our future generations
+            through:
+            <ul>
+              <li>
+                reforming the education system to ensure spiritual, emotional
+                and physical development of individuals along with increasing
+                academic excellence in line with the global standards of social,
+                scientific and artistic disciplines (Anant-Shiksha){' '}
+              </li>
+              <li>
+                ensuring access to physical and mental healthcare to all,
+                counseling and preservation of family units and spreading
+                awareness about medical care, creating a more compassionate and
+                healthy society. (Anant-Aarogya)
+              </li>
+              <li>
+                valuing the gifts of Nature and Nation by preserving our
+                cultural, linguistic and natural heritage by working towards a
+                sustainable, technologically sound and Eco-positive way of
+                living. (Anant-Sanrakshan)
+              </li>
+              <li>
+                ensuring justice, healthcare and economic upliftment of the
+                underprivileged and disenfranchised in society, thereby raising
+                the society’s consciousness to the values of empathy, unity and
+                diversity. (Sneh-Ehsaas)
+              </li>
+              <li>
+                propagating a paradigm of working with each other instead of
+                competing with each other through skill development and sharing
+                initiatives, setting up co-operatives and worker managed SME’s,
+                building an economy driven by local units independent of market
+                tribulations and individuals free from economic bondage.
+                (Sahkarya-Ehsaas)
+              </li>
+              <li>
+                advocacy and policy interventions at the legislative, executive,
+                judicial and journalistic pillars of the society to achieve the
+                educational, environmental, societal and economic reforms sought
+                to be achieved by the Anant-Ehsaas Foundation.
+                (Naitritva-Ehsaas)
+              </li>
+            </ul>
+            The people working with and towards the ideals of AEF believe that
+            it is not the joy of attainment that drives humanity, rather it is
+            the essence of service to humanity that redeems us all in the end.
+            The message of AEF is boundless yet simple, 'Service is Joy'.
           </p>
           <p>
             By the way, check out our <a href="#work">projects</a>.
@@ -52,9 +96,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            &lt;Insert description here&gt;
-          </p>
+          <p>&lt;Insert description here&gt;</p>
           {close}
         </article>
 
@@ -69,9 +111,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
-          <p>
-            &lt;Insert description here&gt;
-          </p>
+          <p>&lt;Insert description here&gt;</p>
           {close}
         </article>
 
