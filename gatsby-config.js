@@ -4,7 +4,7 @@ module.exports = {
     author: "Saurabh Miglani",
     description: "&lt;Insert quick description here&gt;"
   },
-  pathPrefix: "/anant-ehsaas",
+  // pathPrefix: "/anant-ehsaas",
   plugins: [
     'gatsby-plugin-react-helmet',
     {
