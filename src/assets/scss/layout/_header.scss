@@ -75,7 +75,7 @@
 					'opacity #{_duration(article)} ease-in-out'
 				));
 				@include vendor('transition-delay', '0.25s');
-				padding: 3rem 2rem;
+				padding: 1.5rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
 
