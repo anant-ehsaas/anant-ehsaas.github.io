@@ -6,23 +6,25 @@ const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="button-box">
             <span className="inner" >
+            <a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>
                 <img src={logo} alt="" style={{width: '553px', height: '302px'}} />
+            </a>
             </span>
         </div>
         <div className="content">
             <div className="inner">
                 {/* <h1>Anant Ehsaas Foundation</h1> */}
-                <p>&lt;Insert quick description here&gt;</p>
+                <p>Service is Joy</p>
             </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Vision</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Projects</a></li>
+        {/* <nav> */}
+            {/* <ul> */}
+                {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Vision</a></li> */}
+                {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Projects</a></li> */}
                 {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About Us</a></li> */}
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
-            </ul>
-        </nav>
+                {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact Us</a></li> */}
+            {/* </ul> */}
+        {/* </nav> */}
     </header>
 )
 
