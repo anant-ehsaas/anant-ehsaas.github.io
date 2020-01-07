@@ -33,6 +33,7 @@ class Main extends React.Component {
             Anant-Ehsaas Foundation is a collective of dedicated individuals and
             organizations who believe in salvation of our future generations
             through:
+          </p>
             <ul>
               <li>
                 reforming the education system to ensure spiritual, emotional
@@ -74,6 +75,7 @@ class Main extends React.Component {
                 (Naitritva-Ehsaas)
               </li>
             </ul>
+          <p>
             The people working with and towards the ideals of AEF believe that
             it is not the joy of attainment that drives humanity, rather it is
             the essence of service to humanity that redeems us all in the end.
@@ -122,7 +124,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Contact Us</h2>
           <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
