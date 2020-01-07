@@ -1,17 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import logo from "../images/logo.png"
+import logo from "../images/aef_logo_with_text_553x302.png"
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
-        <div className="logo">
-            <span className="icon" >
-                <img src={logo} alt="" style={{width: '50px', height: '70px',  paddingTop:'15px'}} />
+        <div className="button-box">
+            <span className="inner" >
+                <img src={logo} alt="" style={{width: '553px', height: '302px'}} />
             </span>
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Anant Ehsaas Foundation</h1>
+                {/* <h1>Anant Ehsaas Foundation</h1> */}
                 <p>&lt;Insert quick description here&gt;</p>
             </div>
         </div>
