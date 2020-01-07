@@ -70,10 +70,11 @@
 			cursor: default;
 			opacity: 0.25;
 		}
+		a{
+			border-bottom: none;
+		}
 	}
-	a{
-		border-bottom: none;
-	}
+	
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
