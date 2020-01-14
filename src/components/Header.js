@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import logo from "../images/aef_logo_with_text_553x302.png"
+import logo from "../images/AADI-AEF-LOGO_2308x1258.png"
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -11,12 +11,15 @@ const Header = (props) => (
             </a>
             </span>
         </div>
+
         <div className="content">
             <div className="inner">
-                {/* <h1>Anant Ehsaas Foundation</h1> */}
-                <p>Service is Joy</p>
+                <p>I slept and dreamt that life was joy. I awoke and saw that life was service.</p>
+                <p>I acted and behold, service was joy.</p>
+                <p className="align-right">-Rabindranath Tagore</p>
             </div>
         </div>
+
         {/* <nav> */}
             {/* <ul> */}
                 {/* <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Vision</a></li> */}
