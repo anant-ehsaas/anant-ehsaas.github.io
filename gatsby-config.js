@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Anant Ehsaas Foundation",
+    title: "Anant-Ehsaas Foundation",
     author: "Saurabh Miglani",
     description: "&lt;Insert quick description here&gt;"
   },

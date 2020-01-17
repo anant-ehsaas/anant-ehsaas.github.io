@@ -123,7 +123,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact Us</h2>
           <p>
-            Anant Ehsaas Foundation is a pan-India non-profit society registered
+            Anant-Ehsaas Foundation is a pan-India non-profit society registered
             under Societies Registration Act XXI of 1860 (Regn. No.
             S-E/1676/Distt. South East/2019) with registered office at :
           <br/>73, LGF, Anand Lok
