@@ -129,11 +129,12 @@ class Main extends React.Component {
           <br/>73, LGF, Anand Lok
           <br/>New Delhi – 110049</p>
           
-
-          <form method="post" action="#">
           <p>
             Get in touch with us at +911148781108 or leave us a message below:
           </p>
+
+          <form method="post" action="mailto:anantehsaas.aef@gmail.com">
+          
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
