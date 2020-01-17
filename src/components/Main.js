@@ -34,46 +34,44 @@ class Main extends React.Component {
             organizations who believe that salvation of our future generations
             lies in:
           </p>
-            <ul>
-              <li>
-                reforming the education system ensuring the spiritual, emotional
-                and physical development of individuals and achieving
-                academic excellence in line with the global standards of social,
-                scientific and artistic disciplines
-              </li>
-              <li>
-                ensuring access to physical and mental healthcare to all,
-                counseling and preservation of family units and spreading
-                awareness about medical care, leading the way to a more compassionate and
-                healthy society.               </li>
-              <li>
-                valuing the gifts of Nature and Nation by preserving our
-                cultural, linguistic and natural heritage by working towards a
-                sustainable, technologically sound and Eco-positive way of
-                living.
-              </li>
-              <li>
-                ensuring justice, healthcare and economic upliftment of the
-                underprivileged and disenfranchised in society, thereby raising
-                the society’s consciousness to the values of empathy, unity and
-                diversity.
-              </li>
-              <li>
-                propagating a paradigm of working with each other instead of
-                competing with each other through skill development and sharing
-                initiatives, setting up co-operatives and worker managed SME’s, 
-                building an economy driven by local units independent of market
-                tribulations and individuals free from economic bondage.
-                
-              </li>
-              <li>
-                advocacy and policy interventions at the legislative, executive,
-                judicial and journalistic pillars of society to achieve the
-                educational, environmental, societal and economic reforms sought
-                to be achieved by the Anant-Ehsaas Foundation.
-                
-              </li>
-            </ul>
+          <ul>
+            <li>
+              reforming the education system ensuring the spiritual, emotional
+              and physical development of individuals and achieving academic
+              excellence in line with the global standards of social, scientific
+              and artistic disciplines
+            </li>
+            <li>
+              ensuring access to physical and mental healthcare to all,
+              counseling and preservation of family units and spreading
+              awareness about medical care, leading the way to a more
+              compassionate and healthy society.{' '}
+            </li>
+            <li>
+              valuing the gifts of Nature and Nation by preserving our cultural,
+              linguistic and natural heritage by working towards a sustainable,
+              technologically sound and Eco-positive way of living.
+            </li>
+            <li>
+              ensuring justice, healthcare and economic upliftment of the
+              underprivileged and disenfranchised in society, thereby raising
+              the society’s consciousness to the values of empathy, unity and
+              diversity.
+            </li>
+            <li>
+              propagating a paradigm of working with each other instead of
+              competing with each other through skill development and sharing
+              initiatives, setting up co-operatives and worker managed SME’s,
+              building an economy driven by local units independent of market
+              tribulations and individuals free from economic bondage.
+            </li>
+            <li>
+              advocacy and policy interventions at the legislative, executive,
+              judicial and journalistic pillars of society to achieve the
+              educational, environmental, societal and economic reforms sought
+              to be achieved by the Anant-Ehsaas Foundation.
+            </li>
+          </ul>
           <p>
             The people working with and towards the ideals of AEF believe that
             it is not the joy of attainment that drives humanity, rather it is
@@ -124,7 +122,18 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact Us</h2>
+          <p>
+            Anant Ehsaas Foundation is a pan-India non-profit society registered
+            under Societies Registration Act XXI of 1860 (Regn. No.
+            S-E/1676/Distt. South East/2019) with registered office at :
+          <br/>73, LGF, Anand Lok
+          <br/>New Delhi – 110049</p>
+          
+
           <form method="post" action="#">
+          <p>
+            Get in touch with us at +911148781108 or leave us a message below:
+          </p>
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
