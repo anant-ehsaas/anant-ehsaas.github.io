@@ -36,14 +36,13 @@ class Main extends React.Component {
           </p>
           <ul>
             <li>
-              reforming the education system ensuring the spiritual, emotional
-              and physical development of individuals and achieving academic
-              excellence in line with the global standards of social, scientific
-              and artistic disciplines
+              reforming the education system to ensure spiritual, emotional
+              and physical development of individuals along with academic
+              excellence in the social, scientific and artistic disciplines
             </li>
             <li>
-              ensuring access to physical and mental healthcare to all,
-              counseling and preservation of family units and spreading
+              ensuring access to physical and mental healthcare,
+              counselling and preservation of family units and spreading
               awareness about medical care, leading the way to a more
               compassionate and healthy society.{' '}
             </li>
