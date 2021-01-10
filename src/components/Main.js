@@ -77,9 +77,9 @@ class Main extends React.Component {
             the essence of service to humanity that redeems us all in the end.
             The message of AEF is boundless yet simple, 'Service is Joy'.
           </p>
-          {/* <p>
+          <p>
             By the way, check out our <a href="#work">projects</a>.
-          </p> */}
+          </p>
           {close}
         </article>
 
