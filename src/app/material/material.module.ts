@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 
-const modules = [];
+const modules = [MatButtonModule];
 
 @NgModule({
   declarations: [],

@@ -1,0 +1,14 @@
+.btn-logo {
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 6rem;
+  padding: 4rem 3rem 3rem;
+  filter: brightness(50%);
+}
+input {
+  outline: none;
+}
