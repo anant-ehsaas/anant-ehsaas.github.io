@@ -36,15 +36,14 @@ class Main extends React.Component {
           </p>
           <ul>
             <li>
-              reforming the education system to ensure spiritual, emotional
-              and physical development of individuals along with academic
-              excellence in the social, scientific and artistic disciplines
+              reforming the education system to ensure spiritual, emotional and
+              physical development of individuals along with academic excellence
+              in the social, scientific and artistic disciplines
             </li>
             <li>
-              ensuring access to physical and mental healthcare,
-              counselling and preservation of family units and spreading
-              awareness about medical care, leading the way to a more
-              compassionate and healthy society.{' '}
+              ensuring access to physical and mental healthcare, counselling and
+              preservation of family units and spreading awareness about medical
+              care, leading the way to a more compassionate and healthy society.{' '}
             </li>
             <li>
               valuing the gifts of Nature and Nation by preserving our cultural,
@@ -91,9 +90,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
           <p>&lt;Insert description here&gt;</p>
           {close}
         </article>
@@ -106,9 +102,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About Us</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
           <p>&lt;Insert description here&gt;</p>
           {close}
         </article>
@@ -125,15 +118,17 @@ class Main extends React.Component {
             Anant-Ehsaas Foundation is a pan-India non-profit society registered
             under Societies Registration Act XXI of 1860 (Regn. No.
             S-E/1676/Distt. South East/2019) with registered office at :
-          <br/>73, LGF, Anand Lok
-          <br/>New Delhi – 110049</p>
-          
+            <br />
+            73, LGF, Anand Lok
+            <br />
+            New Delhi – 110049
+          </p>
+
           <p>
             Get in touch with us at +911148781108 or leave us a message below:
           </p>
 
           <form method="post" action="mailto:anantehsaas.aef@gmail.com">
-          
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
