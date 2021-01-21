@@ -1,0 +1,16 @@
+mat-card-subtitle {
+  float: right;
+}
+
+mat-card {
+  margin: 5rem auto 0;
+  max-width: 65rem;
+}
+
+mat-icon {
+  font-size: 2px;
+}
+
+.mat-list-item {
+  height: 4.5rem !important;
+}
