@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ContactUsComponent } from '../contact-us/contact-us.component';
+import { VisionComponent } from '../vision/vision.component';
 
 @Component({
   selector: 'app-dashboard',
@@ -14,5 +15,9 @@ export class DashboardComponent implements OnInit {
 
   openContactDialog(): void {
     this.dialog.open(ContactUsComponent);
+  }
+
+  openVisionDialog(): void {
+    this.dialog.open(VisionComponent);
   }
 }

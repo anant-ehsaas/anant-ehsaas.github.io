@@ -1,8 +1,11 @@
 <div class="logo">
-  <button mat-fab aria-label="Logo" class="btn-logo">
-    <a routerLink="/vision">
-      <input type="image" src="../assets/img/logo.png" />
-    </a>
+  <button
+    (click)="openVisionDialog()"
+    mat-fab
+    aria-label="Logo"
+    class="btn-logo"
+  >
+    <input type="image" src="../assets/img/logo.png" />
   </button>
 </div>
 <div>
