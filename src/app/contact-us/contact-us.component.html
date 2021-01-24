@@ -23,14 +23,26 @@
         class="form"
         id="contact-form"
         method="POST"
-        action="mailto:anantehsaas.aef@gmail.com"
+        action="mailto:95smiglani@gmail.com"
       >
         <div class="form-field">
           <mat-form-field appearance="outline" color="accent">
-            <input type="text" matInput placeholder="Name" id="name" />
+            <input
+              type="text"
+              matInput
+              placeholder="Name"
+              id="name"
+              name="name"
+            />
           </mat-form-field>
           <mat-form-field appearance="outline" color="accent">
-            <input type="email" matInput placeholder="Email" id="email" />
+            <input
+              type="email"
+              matInput
+              placeholder="Email"
+              id="email"
+              name="email"
+            />
           </mat-form-field>
         </div>
         <mat-form-field appearance="outline" class="form-field" color="accent">
@@ -39,6 +51,7 @@
             placeholder="Message"
             id="message"
             rows="6"
+            name="message"
           ></textarea>
         </mat-form-field>
         <button
@@ -46,10 +59,13 @@
           form="contact-form"
           mat-raised-button
           color="accent"
+          class="form-button"
         >
           Send Message
         </button>
-        <button type="reset" mat-stroked-button>Reset</button>
+        <button type="reset" mat-stroked-button class="form-button">
+          Reset
+        </button>
       </form>
     </div>
   </mat-card-content>
