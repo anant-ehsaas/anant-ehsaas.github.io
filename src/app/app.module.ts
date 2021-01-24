@@ -7,10 +7,23 @@ import { MaterialModule } from './material/material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { VisionComponent } from './vision/vision.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, VisionComponent, DashboardComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, MaterialModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    VisionComponent,
+    DashboardComponent,
+    ContactUsComponent,
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    AppRoutingModule,
+    FormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
