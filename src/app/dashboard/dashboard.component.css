@@ -1,13 +1,11 @@
+.logo {
+  margin: 0 auto;
+  width: fit-content;
+}
+
 .btn-logo {
   width: fit-content;
   height: fit-content;
-  /* display: block; */
-  display: flex;
-  margin-top: 6rem;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  /* top: 6rem; */
   padding: 4rem 3rem 3rem;
   filter: brightness(50%);
 }
