@@ -1,16 +1,3 @@
-mat-card {
-  margin: 5rem auto 0;
-  max-width: 65rem;
-}
-
-mat-card-subtitle {
-  float: right;
-}
-
-mat-card-title {
-  margin: 2rem 0 !important;
-}
-
 .mat-list-item {
   height: 4.5rem !important;
 }

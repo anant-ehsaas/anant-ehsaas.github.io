@@ -11,3 +11,16 @@ body {
 .mat-body {
   font-size: 1.2rem;
 }
+
+mat-card {
+  margin: 5rem auto 0;
+  max-width: 65rem;
+}
+
+mat-card-subtitle {
+  float: right;
+}
+
+mat-card-title {
+  margin: 2rem 0 !important;
+}
