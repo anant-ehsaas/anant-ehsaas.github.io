@@ -5,9 +5,51 @@
     </button>
   </mat-card-subtitle>
   <mat-card-title>
-    <span class="mat-display-2">Vision</span>
+    <span class="mat-display-2">Contact Us</span>
   </mat-card-title>
   <mat-card-content>
-    <p>contact-us works!</p>
+    <div class="mat-body">
+      <p>
+        Anant-Ehsaas Foundation is a pan-India non-profit society registered
+        under Societies Registration Act XXI of 1860 (Regn. No. S-E/1676/Distt.
+        South East/2019) with registered office at :
+        <br />73, LGF, Anand Lok <br />New Delhi – 110049 <br />
+        <br />Get in touch with us at +911148781108 or leave us a message below:
+      </p>
+    </div>
+    <div>
+      <form
+        class="form"
+        id="contact-form"
+        method="POST"
+        action="mailto:anantehsaas.aef@gmail.com"
+      >
+        <div class="form-field">
+          <mat-form-field appearance="outline" color="accent">
+            <input type="text" matInput placeholder="Name" id="name" />
+          </mat-form-field>
+          <mat-form-field appearance="outline" color="accent">
+            <input type="email" matInput placeholder="Email" id="email" />
+          </mat-form-field>
+        </div>
+        <mat-form-field appearance="outline" class="form-field" color="accent">
+          <textarea
+            matInput
+            placeholder="Message"
+            id="message"
+            rows="6"
+          ></textarea>
+        </mat-form-field>
+        <button
+          type="submit"
+          form="contact-form"
+          mat-raised-button
+          color="accent"
+        >
+          Send Message
+        </button>
+        <button type="reset" mat-stroked-button>Reset</button>
+      </form>
+    </div>
   </mat-card-content>
 </mat-card>
