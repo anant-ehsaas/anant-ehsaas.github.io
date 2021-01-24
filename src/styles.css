@@ -1,9 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-html,
-body {
-  /* height: 100%; */
-}
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -12,15 +8,10 @@ body {
   font-size: 1.2rem;
 }
 
-mat-card {
-  margin: 5rem auto 0;
-  max-width: 65rem;
-}
-
-mat-card-subtitle {
+.mat-dialog-actions {
   float: right;
 }
 
-mat-card-title {
-  margin: 2rem 0 !important;
+.mat-dialog-title {
+  margin: 3rem 0 !important;
 }
