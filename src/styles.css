@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.mat-body {
+  font-size: 1.15rem;
+}
+
+.mat-dialog-actions {
+  float: right;
+}
+
+.mat-dialog-title {
+  margin: 3rem 0 !important;
+}

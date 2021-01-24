@@ -1,36 +1,47 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
-  "version": "1.0.0",
-  "author": "Hunter Chang",
-  "dependencies": {
-    "gatsby": "^2.15.28",
-    "gatsby-plugin-manifest": "^2.2.20",
-    "gatsby-plugin-offline": "^3.0.11",
-    "gatsby-plugin-react-helmet": "^3.1.10",
-    "gatsby-plugin-sass": "^2.1.17",
-    "node-sass": "^4.12.0",
-    "react": "^16.10.0",
-    "react-dom": "^16.10.0",
-    "react-helmet": "^5.2.1"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "name": "anant-ehsaas",
+  "version": "0.0.0",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~11.0.4",
+    "@angular/cdk": "~11.0.2-sha-c6231e19b",
+    "@angular/common": "~11.0.4",
+    "@angular/compiler": "~11.0.4",
+    "@angular/core": "~11.0.4",
+    "@angular/forms": "~11.0.4",
+    "@angular/material": "~11.0.2-sha-c6231e19b",
+    "@angular/platform-browser": "~11.0.4",
+    "@angular/platform-browser-dynamic": "~11.0.4",
+    "@angular/router": "~11.0.4",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
-    "prettier": "^1.18.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "@angular-devkit/build-angular": "~0.1100.4",
+    "@angular/cli": "~11.0.4",
+    "@angular/compiler-cli": "~11.0.4",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~5.1.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "protractor": "~7.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.0.2"
   }
 }

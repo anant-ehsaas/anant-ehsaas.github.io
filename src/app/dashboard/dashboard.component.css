@@ -1,0 +1,56 @@
+.logo {
+  margin: 4rem auto;
+  width: fit-content;
+}
+
+.btn-logo {
+  width: fit-content;
+  height: fit-content;
+  padding: 4rem 3rem 3rem;
+  filter: brightness(50%);
+}
+input {
+  outline: none;
+}
+
+.p-greeter {
+  width: fit-content;
+  margin: 5rem auto 0;
+  display: grid;
+}
+
+.mat-display-1 {
+  font-size: 1.7rem;
+}
+
+.span-greeter {
+  width: fit-content;
+  margin: 0 auto;
+  text-transform: uppercase;
+  /* filter: brightness(80%); */
+}
+
+.span-greeter-author {
+  width: fit-content;
+  margin: 1rem 0 0 auto;
+  filter: brightness(80%);
+}
+
+.btn-contact {
+  margin: 2rem auto;
+  display: flex;
+}
+
+.footer {
+  opacity: 0.75;
+  font-size: 0.72rem;
+
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+a {
+  color: inherit;
+}
