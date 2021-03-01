@@ -1,0 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600&display=swap);
+
+:not(mat-icon) {
+  font-family: "Source Sans Pro" !important;
+}
