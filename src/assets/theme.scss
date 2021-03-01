@@ -1,0 +1,28 @@
+@import "~@angular/material/theming";
+@import "./palettes";
+
+@include mat-core();
+
+$primary-mat-palette: mat-palette($primary-palette);
+$secondary-mat-palette: mat-palette($accent-palette);
+$warn-mat-palette: mat-palette($warn-palette);
+
+@function create-theme($primary, $accent, $warn, $foreground, $background) {
+  @return (
+    primary: $primary,
+    accent: $accent,
+    warn: $warn,
+    is-dark: false,
+    foreground: $foreground,
+    background: $background
+  );
+}
+
+$custom-theme: create-theme(
+  $primary-mat-palette,
+  $secondary-mat-palette,
+  $warn-mat-palette,
+  $dark-foreground,
+  $dark-background
+);
+@include angular-material-theme($custom-theme);
