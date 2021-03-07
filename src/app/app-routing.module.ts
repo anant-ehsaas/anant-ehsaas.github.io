@@ -5,9 +5,27 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { VisionComponent } from './vision/vision.component';
 
 const appRoutes: Routes = [
-  { path: 'contact', component: ContactUsComponent },
-  { path: 'vision', component: VisionComponent },
-  { path: 'dashboard', component: DashboardComponent },
+  {
+    path: 'contact',
+    component: ContactUsComponent,
+    data: {
+      title: 'Contact Us',
+    },
+  },
+  {
+    path: 'vision',
+    component: VisionComponent,
+    data: {
+      title: 'Our Vision',
+    },
+  },
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
+    data: {
+      title: 'Dashboard',
+    },
+  },
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
 ];
 
