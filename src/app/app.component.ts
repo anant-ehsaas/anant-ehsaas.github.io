@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,15 +8,5 @@ import { Router, Routes } from '@angular/router';
 export class AppComponent {
   title = 'anant-ehsaas';
 
-  routes: Routes = [];
-
-  constructor(private router: Router) {
-    this.populateRoutes();
-  }
-
-  populateRoutes() {
-    this.router.config.forEach((route) => {
-      if (route.data) this.routes.push(route);
-    });
-  }
+  constructor() {}
 }

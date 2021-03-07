@@ -9,6 +9,7 @@ import { VisionComponent } from './vision/vision.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms';
     VisionComponent,
     DashboardComponent,
     ContactUsComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
