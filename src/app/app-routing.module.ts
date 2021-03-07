@@ -6,10 +6,10 @@ import { VisionComponent } from './vision/vision.component';
 
 const appRoutes: Routes = [
   {
-    path: 'contact',
-    component: ContactUsComponent,
+    path: 'dashboard',
+    component: DashboardComponent,
     data: {
-      title: 'Contact Us',
+      title: 'Dashboard',
     },
   },
   {
@@ -20,10 +20,10 @@ const appRoutes: Routes = [
     },
   },
   {
-    path: 'dashboard',
-    component: DashboardComponent,
+    path: 'contact',
+    component: ContactUsComponent,
     data: {
-      title: 'Dashboard',
+      title: 'Contact Us',
     },
   },
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
