@@ -6,6 +6,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatTabsModule } from '@angular/material/tabs';
+import { DomSanitizer } from '@angular/platform-browser';
+import { MatIconRegistry } from '@angular/material/icon';
 
 const modules = [
   MatButtonModule,
@@ -22,4 +24,11 @@ const modules = [
   imports: [modules],
   exports: [modules],
 })
-export class MaterialModule {}
+export class MaterialModule {
+  constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
+    iconRegistry.addSvgIcon(
+      'aef-logo',
+      sanitizer.bypassSecurityTrustResourceUrl('../../assets/img/aef-logo.svg')
+    );
+  }
+}

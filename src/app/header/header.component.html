@@ -1,5 +1,8 @@
-<nav mat-tab-nav-bar>
-  <!-- <mat-icon (click)="sidenav.toggle()">menu</mat-icon> -->
+<nav mat-tab-nav-bar backgroundColor="warn">
+  <button mat-icon-button routerLink="/">
+    <mat-icon svgIcon="aef-logo" style="transform: scale(2)"></mat-icon>
+  </button>
+
   <a
     mat-tab-link
     *ngFor="let route of routes"
