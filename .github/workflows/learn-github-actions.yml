@@ -1,15 +1,17 @@
 name: learn-github-actions
 on: 
+# TODO: uncomment pr section and comment push.branches section before merging to main. added for dev purpose
   push:
-    # branches:
-    #   - main
-    #   - dev
-    tags:
-      - '**'
-  pull_request:
     branches:
       - main
-      # - dev
+      - dev
+    tags:
+      - '**'
+
+  # pull_request:
+  #   branches:
+  #     - main
+  #     - dev
 jobs:
   check-bash-version:
     runs-on: ubuntu-latest
