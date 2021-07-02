@@ -13,16 +13,23 @@ on:
   #     - main
   #     - dev
 jobs:
-  check-bash-version:
+  ng-build-and-commit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: ls -la
+      # - run: ls -la
       - run: npm install
-      - run: npm run build
-      - run: ls -la
-      - run: ls -la dist
+      - run: npm run build:prod
+      - name: Create 404 file
+        run: cp docs/index.html docs/404.html
+      # - run: ls -la
+      - run: ls -la docs
+      - name: Commit build changes to repo
+        uses: EndBug/add-and-commit@v7
+        with: 
+          default_author: github_actions
+          add: 'docs'
       # - run: 
