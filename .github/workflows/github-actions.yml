@@ -1,0 +1,47 @@
+name: ng-build
+on: 
+# TODO: uncomment pr section and comment push.branches section before merging to main. added for dev purpose
+  push:
+    tags:
+      - '**'
+    # branches:
+    #   - main
+    #   - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+jobs:
+  ng-build-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - run: npm install
+      - run: npm run build:prod
+      - name: Create 404 file
+        run: cp docs/index.html docs/404.html
+      # - run: ls -la
+      # - run: ls -la docs
+      - name: Commit build changes to repo
+        uses: EndBug/add-and-commit@v7
+        with: 
+          default_author: github_actions
+          add: 'docs'
+      # - run: 
