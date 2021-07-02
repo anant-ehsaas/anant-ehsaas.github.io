@@ -1,17 +1,16 @@
-name: learn-github-actions
+name: ng-build
 on: 
 # TODO: uncomment pr section and comment push.branches section before merging to main. added for dev purpose
   push:
+    tags:
+      - '**'
+    # branches:
+    #   - main
+    #   - dev
+  pull_request:
     branches:
       - main
       - dev
-    tags:
-      - '**'
-
-  # pull_request:
-  #   branches:
-  #     - main
-  #     - dev
 jobs:
   ng-build-and-commit:
     runs-on: ubuntu-latest
@@ -39,7 +38,7 @@ jobs:
       - name: Create 404 file
         run: cp docs/index.html docs/404.html
       # - run: ls -la
-      - run: ls -la docs
+      # - run: ls -la docs
       - name: Commit build changes to repo
         uses: EndBug/add-and-commit@v7
         with: 
